@@ -27,7 +27,7 @@
                 background-repeat: no-repeat; 
                 border: none; 
                 border-radius: 10px;
-                /* box-shadow: 10px 10px 30px 10px black; */
+                box-shadow: 10px 10px 30px 10px black;
                 ">
                 <div class="col-12 col-lg-5 d-flex flex-column  w-25">
                     <img src="./logomark.min.svg" alt="le favicon">
@@ -53,10 +53,11 @@
                 </div>
             </div>
 
-            <div class="col-12 col-lg-5 card mt-5 p-2 p-lg-4">
+            <div class="col-12 col-lg-5 card mt-5 mt-lg-0  p-2 p-lg-4" style="border-radius: 10px;">
                 <form method="post" data-bs-spy="scroll" data-bs-offset="0" class="scrollspy-example" tabindex="0">
                     <h3 class="d-flex justify-content-center fw-bold fs-1" style="color: red; font-family: Homenaje;">
-                        Inscription </h3>
+                        Inscription 
+                    </h3>
                     <div class="mb-2">
                         <label for="nom_prenom" class="form-label"> Nom et prénoms </label>
                         <input type="text" name="nom_prenom" id="nom_prenom"
@@ -75,19 +76,19 @@
                     </div>
                     <div class="mb-3">
                         Etes-vous disponible sur une période de 6 semaines à partir de 4 septembre 2023 ? <br>
-                        <input type="radio" name="disponibilite" id="disponibilite1" class="form-check-input"> <label
-                            for="disponibilite1" class="form-check-label"> Oui </label><br>
-                        <input type="radio" name="disponibilite" id="disponibilite2" class="form-check-input"> <label
-                            for="disponibilite2" class="form-check-label"> Non </label>
+                        <input type="radio" name="disponibilite" id="disponibilite1" class="form-check-input">
+                        <label for="disponibilite1" class="form-check-label"> Oui </label> <br>
+                        <input type="radio" name="disponibilite" id="disponibilite2" class="form-check-input">
+                        <label for="disponibilite2" class="form-check-label"> Non </label>
                     </div>
                     <div class="mb-3">
                         La formation se tiendra à Cotonou, plus précisement derrière ISM Adonai à Sikècodji. La présence
                         est obligatoire, serez-vous apte à vous rendre sur le lieu de la formation au moins deux(02)
                         fois par semaine ? <br>
-                        <input type="radio" name="presence" id="presence1" class="form-check-input"> <label
-                            for="presence1" class="form-check-label"> Oui </label> <br>
-                        <input type="radio" name="presence" id="presence2" class="form-check-input"> <label
-                            for="presence2" class="form-check-label"> Non </label>
+                        <input type="radio" name="presence" id="presence1" class="form-check-input"> 
+                        <label for="presence1" class="form-check-label"> Oui </label> <br>
+                        <input type="radio" name="presence" id="presence2" class="form-check-input"> 
+                        <label for="presence2" class="form-check-label"> Non </label>
                     </div>
                     <div class="mb-4">
                         <label for="equipement" class="form-label"> La formation étant pratique et théorique, vous aurez
